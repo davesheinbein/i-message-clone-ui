@@ -36,12 +36,11 @@ function App() {
 		return () => {
 			console.log('<<< Hitting use Login/Logout effect');
 		};
-	}, []);
+	}, [dispatch]);
 
 	return (
 		<div className='app'>
 			{user ? <Imessage /> : <Login />}
-			{/* <Imessage /> */}
 		</div>
 	);
 }

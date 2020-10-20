@@ -1,8 +1,8 @@
-# **Fake iMessage Mock Frontend UI**
+# **iMessage Mock Frontend UI**
 
 ### Click the link to view the website
 
-[Fake iMessage Mock Frontend UI Website](https://i-message-ui.web.app/)
+[iMessage Mock Frontend UI Website](https://i-message-ui.web.app/)
 
 ### About Us
 
@@ -66,4 +66,4 @@
 
 ### Click the link to view David Sheinbeins Portfolio website
 
-[David Sheinbein Portfolio Webstite](http://www.davidsheinbeinportfolio.com/)
+[David Sheinbein's Portfolio Webstite](http://www.davidsheinbeinportfolio.com/)
