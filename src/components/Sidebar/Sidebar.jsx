@@ -53,7 +53,7 @@ function Sidebar() {
 				/>
 				<div className='sidebar__input'>
 					<Search />
-					<input type='text' placeholder='search' />
+					<input type='text' placeholder='Search' />
 				</div>
 				{/* Makes Icons clickable - for material UI */}
 				<IconButton
