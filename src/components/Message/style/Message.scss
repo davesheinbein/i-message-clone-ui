@@ -1,0 +1,39 @@
+.message {
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: fit-content;
+	justify-content: space-between;
+	margin: 15px;
+	.message__photo {
+		order: 0; // changes the flex order of the children
+	}
+	& > p {
+		background: var(--darkWhite);
+		font-size: medium;
+		padding: 15px;
+		border-radius: 20px;
+		margin: 10px;
+		margin-right: auto;
+	}
+	& > small {
+		color: var(--gray);
+		font-size: 8px;
+		white-space: nowrap;
+		position: absolute;
+		bottom: -5px;
+		right: 0;
+	}
+}
+
+.message__sender {
+	margin-left: auto;
+	& > .message__photo {
+		order: 1; // changes the flex order of the children
+		margin: 15px;
+	}
+	& > p {
+		background: var(--darkblue);
+		color: var(--white);
+	}
+}

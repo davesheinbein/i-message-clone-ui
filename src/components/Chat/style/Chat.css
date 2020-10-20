@@ -38,6 +38,13 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.chat .chat__messages::-webkit-scrollbar {
+  display: none;
 }
 
 .chat .chat__input {
