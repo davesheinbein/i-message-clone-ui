@@ -1,0 +1,29 @@
+.sidebarChat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  background-origin: 1px solid lightgrey;
+  cursor: pointer;
+}
+
+.sidebarChat:hover {
+  background: #3e93fd;
+  color: #ffffff;
+}
+
+.sidebarChat .sidebarChat__info {
+  margin-left: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.sidebarChat .sidebarChat__info > small {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+/*# sourceMappingURL=SidebarChat.css.map */
