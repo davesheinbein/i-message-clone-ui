@@ -25,7 +25,7 @@ function Sidebar() {
 			setChats(
 				snapshot.docs.map((doc) => ({
 					id: doc.id,
-					data: doc.date(),
+					data: doc.data(),
 				}))
 			)
 		);
@@ -35,14 +35,13 @@ function Sidebar() {
 	}, []);
 
 	const addChat = () => {
-		const chatName = prompt('Please enter a chat name...')
-		if(chatName) {
-
-			db.collection('chat').add({
+		const chatName = prompt('Please enter a chat name...');
+		if (chatName) {
+			db.collection('chats').add({
 				chatName: chatName,
-			}
-			})
-	}
+			});
+		}
+	};
 
 	return (
 		<div className='sidebar'>

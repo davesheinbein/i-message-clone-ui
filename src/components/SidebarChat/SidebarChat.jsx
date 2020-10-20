@@ -3,7 +3,7 @@ import React from 'react';
 import { Avatar } from '@material-ui/core';
 import './style/SidebarChat.css';
 
-function SidebarChat(id, chatName) {
+function SidebarChat({ id, chatName }) {
 	return (
 		<div className='sidebarChat'>
 			<Avatar />

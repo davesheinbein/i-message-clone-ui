@@ -34,7 +34,7 @@ function App() {
 			}
 		});
 		return () => {
-			console.log('<<< Hitting use effect');
+			console.log('<<< Hitting use Login/Logout effect');
 		};
 	}, []);
 
