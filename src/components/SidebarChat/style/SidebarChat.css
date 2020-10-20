@@ -6,13 +6,13 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 20px;
-  background-origin: 1px solid lightgrey;
+  background-origin: 1px solid var(--lightgray);
   cursor: pointer;
 }
 
 .sidebarChat:hover {
   background: #3e93fd;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .sidebarChat .sidebarChat__info {

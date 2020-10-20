@@ -1,0 +1,23 @@
+.login {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	.login__logo {
+		& > img {
+			object-fit: contain;
+			height: 150px;
+		}
+	}
+	& > button {
+		width: 300px;
+		background: var(--lightblue);
+		color: var(--lightWhite);
+		font-weight: 800;
+		&:hover {
+			color: var(--lightblue);
+			background: var(--gainsboro);
+		}
+	}
+}

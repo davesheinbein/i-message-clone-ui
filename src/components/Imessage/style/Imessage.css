@@ -1,1 +1,6 @@
-/* No CSS *//*# sourceMappingURL=Imessage.css.map */
+.imessage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=Imessage.css.map */
