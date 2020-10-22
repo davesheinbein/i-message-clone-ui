@@ -60,9 +60,11 @@
 
 ## Potential Next Steps:
 
-##### - [X] Update CSS further to make responsive on all size screens
-
 ##### - [] Make chat scroll to bottom upon sending message
+
+##### - [] Create a Dark Mode + D`ark mode switch
+
+##### - [X] Update CSS further to make responsive on all size screens
 
 ### Click the link to view David Sheinbeins Portfolio website
 
