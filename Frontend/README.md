@@ -18,13 +18,13 @@
 
 ## Screenshot:
 
-![Login Page Sceenshot](screenshots/LoginScreenshot.png)
+![Login Page Screenshot](screenshots/LoginScreenshot.png)
 
-[Login Page Sceenshot](https://imgur.com/u3TSqIH)
+[Login Page Screenshot](https://imgur.com/u3TSqIH)
 
-![Home Page Sceenshot](screenshots/homeScreenshot.png)
+![Home Page Screenshot](screenshots/homeScreenshot.png)
 
-[Home Page Sceenshot](https://imgur.com/pU6fTS5)
+[Home Page Screenshot](https://imgur.com/pU6fTS5)
 
 ## Technologies Used:
 
@@ -62,7 +62,7 @@
 
 ##### - [] Make chat scroll to bottom upon sending message
 
-##### - [] Create a Dark Mode + D`ark mode switch
+##### - [] Create a Dark Mode + Dark mode switch
 
 ##### - [X] Update CSS further to make responsive on all size screens
 
