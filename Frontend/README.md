@@ -1,12 +1,12 @@
-# **iMessage Mock Frontend UI**
+# **Mock iMessage Frontend**
 
 ### Click the link to view the website
 
-[iMessage Mock Frontend UI Website](https://i-message-ui.web.app/)
+[Mock iMessage UI Website](https://i-message-ui.web.app/)
 
 ### About Us
 
-##### Mock iMessage Frontend UI built utilizing React, Redux, SASS, and more. Deployed to Firebase utilizing Firebase database and user authentication.
+##### Mock iMessage Frontend built utilizing React, Redux, SASS, and more. Deployed to Firebase utilizing Firebase database and user authentication.
 
 #### Project Work:
 
