@@ -10,6 +10,8 @@
 
 ##### Frontend built utilizing React, Redux, SASS, and more. Deployed to Firebase utilizing Firebase database and user authentication.
 
+##### Mock iMessage Backend built utilizing Express, Mongoose, cors, .env files, and more...
+
 #### Project Work:
 
 ##### https://github.com/davesheinbein

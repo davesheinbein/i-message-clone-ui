@@ -1,19 +1,23 @@
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-const imessageSchema = mongoose.Schema({
-    chatName: String,
-    conversation: [
-        {
-            message: String,
-            timestamp: String,
-            user: {
-                displayName: String,
-                email: String,
-                photo: String,
-                uid: String
-            }
-        }
-    ]
-})
+const imessageSchema = new Schema({
+	chatName: { type: String },
+	conversation: [
+		{
+			message: { type: String },
+			timestamp: { type: String },
+			user: {
+				displayName: { type: String },
+				email: { type: String },
+				photo: { type: String },
+				uid: { type: String },
+			},
+		},
+	],
+});
 
-module.exports = mongoose.model('conversations', imessageSchema)
+module.exports = mongoose.model(
+	'conversations',
+	imessageSchema
+);
