@@ -47,6 +47,16 @@
   display: none;
 }
 
+.chat .chat__messages div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
 .chat .chat__input {
   display: -webkit-box;
   display: -ms-flexbox;
